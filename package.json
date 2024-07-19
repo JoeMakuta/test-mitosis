@@ -1,0 +1,19 @@
+{
+  "name": "test-mitosis",
+  "version": "1.0.0",
+  "description": "This is for testing Mitosis library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoeMakuta/test-mitosis.git"
+  },
+  "author": "JoeMakuta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoeMakuta/test-mitosis/issues"
+  },
+  "homepage": "https://github.com/JoeMakuta/test-mitosis#readme"
+}
