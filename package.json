@@ -15,9 +15,5 @@
   "bugs": {
     "url": "https://github.com/JoeMakuta/test-mitosis/issues"
   },
-  "homepage": "https://github.com/JoeMakuta/test-mitosis#readme",
-  "dependencies": {
-    "@builder.io/mitosis": "^0.3.11",
-    "@builder.io/mitosis-cli": "^0.3.11"
-  }
+  "homepage": "https://github.com/JoeMakuta/test-mitosis#readme"
 }
