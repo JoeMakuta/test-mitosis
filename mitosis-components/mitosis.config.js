@@ -10,7 +10,7 @@ module.exports = {
   },
   options: {
     react: {
-      // stylesType: "styled-components",
+      stylesType: "styled-components",
       typescript: true,
       contextType: "context",
     },

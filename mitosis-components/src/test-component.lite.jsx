@@ -1,21 +1,31 @@
 import { useState } from "@builder.io/mitosis";
+import "./index.css"
 
 export default function MyComponent(props) {
   const [name, setName] = useState("Alex");
   // useStyle(`
-  //   button {
+  //   .bg-white{
+  //     background-color: white;
+  //     color : black;
+  //   }
+  //   .flex {
+  //       display:flex;
+  //   }
+  //   .flex-col{
+  //       flex-direction : column
+  //   }
+  //   input {
   //     font-size: 12px;
-  //     outline: 1px solid black;
+  //     width: 300px;
+  //     height : 100px;
   //   }
   // `);
 
   return (
-    <div class="bg-white flex">
+    <div class="bg-white flex flex-col">
       <input
-        css={{
-          color: "red",
-        }}
         value={name}
+        // class="bg-white"
         onChange={(event) => setName(event.target.value)}
       />
       Hello! I can run in React, Vue, Solid, or Liquid!

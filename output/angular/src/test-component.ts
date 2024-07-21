@@ -3,15 +3,13 @@ import { CommonModule } from "@angular/common";
 
 import { Component } from "@angular/core";
 
+import "./index.css";
+
 @Component({
   selector: "my-component, MyComponent",
   template: `
-    <div class="bg-white flex">
-      <input
-        class="input"
-        [attr.value]="name"
-        (input)="name = $event.target.value"
-      />
+    <div class="bg-white flex flex-col">
+      <input [attr.value]="name" (input)="name = $event.target.value" />
 
       Hello! I can run in React, Vue, Solid, or Liquid!
     </div>
@@ -20,9 +18,6 @@ import { Component } from "@angular/core";
     `
       :host {
         display: contents;
-      }
-      .input {
-        color: red;
       }
     `,
   ],
